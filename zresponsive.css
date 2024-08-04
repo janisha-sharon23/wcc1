@@ -1,0 +1,509 @@
+@media(width<=576px) {
+
+    .aligncc {
+        padding: 0 2rem;
+    }
+
+    .cspacing {
+        padding: 3rem 0;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid73,
+    .grid31,
+    .gridabout,
+    .gridcontact,
+    .linkContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .grid6 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header {
+        padding: 2rem 0 0;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    .navBar {
+        position: relative;
+    }
+
+    .navBody ul {
+        position: absolute;
+        width: 25%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem 2rem 1rem 1rem;
+        right: -100%;
+        top: 14.7rem;
+    }
+
+    .navBody li {
+        display: block;
+        margin: 0.4rem;
+        background-color: rgba(255, 250, 250, 0);
+        backdrop-filter: blur(1rem);
+        width: 100%;
+        padding: 0 1rem;
+
+    }
+
+    .navBody li a {
+        color: #ffffff;
+    }
+
+    #check:checked~.navBody ul {
+        right: 1rem;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+    }
+
+    .navHeadCard {
+        padding: 0 0rem;
+        margin-right: 0rem;
+    }
+
+    .navHeadImage {
+        padding: 2rem 0 0;
+        width: 15%;
+        height: auto;
+    }
+
+    .navHeadText h2 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .navHeadText h3 {
+        margin: 0rem;
+        font-weight: 600;
+        font-size: 1.59rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navHeadText {
+        padding: 0rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navfiveButtons {
+        padding-left: 9rem;
+        border-top: none;
+        padding-top: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .navfiveButtons button {
+        margin: 0.2rem;
+        padding: 0rem 0.3rem;
+        font-weight: 400;
+        font-size: 1.3rem;
+        border-radius: 0.18rem;
+        width: max-content;
+    }
+
+    .navHeadText p {
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .navbuttonText p {
+        display: none;
+    }
+
+    .navHeadingBody {
+        margin-bottom: 0.2rem;
+        border-bottom: none;
+    }
+
+    .heroJumbotron h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .heroImage {
+        margin: 20%;
+        padding: 2.5rem;
+    }
+
+    .heroSection {
+        padding: 3rem 0;
+    }
+
+    .aboutJumbotron h2 {
+        margin: 0rem 0 1rem;
+    }
+
+    .aboutBody {
+        padding: 3rem 2rem 3rem;
+    }
+
+    .heroBody,
+    .aboutBody,
+    .principalDeskBody,
+    .courseBody,
+    .contactInfoBody {
+        padding: 0rem 2rem;
+    }
+
+    .aboutJumbotron button {
+        margin-bottom: 3rem;
+    }
+
+    .aboutImage {
+        padding: 0rem;
+    }
+
+    .aboutImage img {
+        width: 34rem;
+        aspect-ratio: 1/1;
+    }
+
+    .principalJumbotron p {
+        margin-right: 0rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-left: 0rem;
+    }
+
+    .courseName p {
+        padding: 0 0 0.9rem 0;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .courseCard {
+        margin: 1rem;
+    }
+
+    .courseHeadingBody {
+        margin-bottom: 0rem;
+        padding: 0rem 6.5rem;
+    }
+
+    .staffCardHead h2 {
+        font-size: 3.8rem;
+        font-weight: 300rem;
+    }
+
+    .staffCardBody p {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .staffCardBody i {
+        margin: 0;
+        font-size: 2.677rem;
+    }
+
+    .contact {
+        padding: 2rem 0;
+    }
+
+    .link2 {
+        padding: 0rem 0rem 2rem;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactInfoBody {
+        padding-bottom: 1rem;
+    }
+
+    .copyrightText p {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .copyrightJumbotron p {
+        display: none;
+    }
+
+    .arrow {
+        margin-right: 2rem;
+
+    }
+}
+
+@media(width>=576.2px) and (width<=768px) {
+    .aligncc {
+        padding: 0 3rem;
+    }
+
+    .cspacing {
+        padding: 4rem 0;
+    }
+
+    header {
+        padding: 3rem 0 0;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid73,
+    .grid31,
+    .gridabout,
+    .gridcontact {
+        grid-template-columns: 1fr;
+    }
+
+    .grid4,
+    .listlinks {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid6 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header {
+        padding: 2rem 0 0;
+    }
+
+    label #btn {
+        display: block;
+    }
+
+    .navBar {
+        position: relative;
+    }
+
+    .navBody ul {
+        position: absolute;
+        width: 25%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem 2rem 1rem 1rem;
+        right: -100%;
+        top: 14.7rem;
+    }
+
+    .navBody li {
+        display: block;
+        margin: 0.4rem;
+        background-color: rgba(255, 250, 250, 0);
+        backdrop-filter: blur(1rem);
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .navBody li a {
+        color: #ffffff;
+    }
+
+    #check:checked~.navBody ul {
+        right: 1.3rem;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+    }
+
+    .navHeadCard {
+        padding: 0 0rem;
+        margin-right: 0rem;
+        justify-content: flex-start;
+    }
+
+    .navHeadImage {
+        padding: 1rem 0 0;
+        width: 15%;
+        height: auto;
+    }
+
+    .navHeadImage img {
+        float: left;
+    }
+
+    .navHeadText {
+        margin-left: 8rem;
+    }
+
+    .navHeadText h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    .navHeadText h3 {
+        margin: 0rem;
+        font-weight: 600;
+        font-size: 1.59rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navHeadText {
+        padding: 0rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navfiveButtons {
+        padding-left: 5rem;
+        border-top: none;
+        padding-top: 0rem;
+
+    }
+
+    .navfiveButtons button {
+        margin: 0.4rem;
+        padding: 0rem 0.3rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+        border-radius: 0.18rem;
+    }
+
+    .navHeadText p {
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .navbuttonText p {
+        display: none;
+    }
+
+    .navHeadingBody {
+        margin-bottom: 0.2rem;
+        border-bottom: none;
+    }
+
+    .heroJumbotron h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .heroImage {
+        margin: 25%;
+        padding: 2.5rem;
+    }
+
+    .aboutJumbotron h2 {
+        margin: 0rem 0 1rem;
+    }
+
+    .aboutBody {
+        padding: 3rem 2rem 3rem;
+    }
+
+    .heroBody,
+    .aboutBody,
+    .principalDeskBody,
+    .courseBody,
+    .contactInfoBody {
+        padding: 0rem 2rem;
+    }
+
+    .aboutJumbotron button {
+        margin-bottom: 3rem;
+    }
+
+    .aboutImage {
+        padding: 0rem;
+    }
+
+    .aboutImage img {
+        width: 34rem;
+        aspect-ratio: 1/1;
+    }
+
+    .principalJumbotron p {
+        margin-right: 0rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding-left: 0rem;
+    }
+
+    .courseName p {
+        padding: 0 0 0.9rem 0;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .courseCard {
+        margin: 1rem;
+    }
+
+    .courseHeadingBody {
+        margin-bottom: 0rem;
+        padding: 0rem 6.5rem;
+    }
+
+    .staffCardHead h2 {
+        font-size: 3.8rem;
+        font-weight: 300rem;
+    }
+
+    .staffCardBody p {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .staffCardBody i {
+        margin: 0;
+        font-size: 2.677rem;
+    }
+
+    .contact {
+        padding: 2rem 0;
+    }
+
+    .link2 {
+        padding: 5rem 0rem 0;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactInfoBody {
+        padding-bottom: 1rem;
+    }
+
+    .copyrightText p {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .copyrightJumbotron p {
+        display: none;
+    }
+
+    .arrow {
+        margin-right: 2rem;
+
+    }
+}
